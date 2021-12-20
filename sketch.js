@@ -64,5 +64,13 @@ function draw(){
     bird.display();
     platform.display();
     log6.display();
-    chain.display();    
+    chain.display(); 
+    
+    Slingshot.display
+}
+function mouseDragged();
+Matter.Body.setPosition(bird.body, {x: mouseX , y:mouseY});
+
+function mouseReleased(){
+    slingshot.fly();
 }
