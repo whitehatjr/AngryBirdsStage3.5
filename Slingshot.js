@@ -9,6 +9,10 @@ constructotr(bodayA, bodyB)(
 this.sling- Constructor.create(options);
 World.add(world, this.sling);
 }
+fly(){
+  this.sling.bodyA = null;
+}
+
 display(){
   var pointA= this.sling.bodyA.position;
   var ponitB= this.sling.bodyB.position;
